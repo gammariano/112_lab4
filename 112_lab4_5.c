@@ -6,7 +6,7 @@ int main()
     char glass[n][50];
     for(i=0;i<n;i++)
     {
-        scanf("%[^\n]s" ,glass[i]);
+        scanf(" %[^\n]s" ,glass[i]);
     }
     for(j=0;j<n;j++)
     {
@@ -116,5 +116,7 @@ int main()
                 }
             }
         }
+        printf("%d\n" ,m);
     }
+    return 0;
 }
