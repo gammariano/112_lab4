@@ -20,5 +20,12 @@ int main()
             b=i+1;
             max=count;
         }
+        if(min>=count)
+        {
+            c=i+1;
+            min=count;
+        }
     }
+    printf("%d %d" ,b,c);
+    return 0;
 }
