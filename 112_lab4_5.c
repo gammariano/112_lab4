@@ -15,4 +15,11 @@ void Acronym (char *s)
     char *j;
     j=strtok(s,delim);
     printf("%c",toupper(s[0]));
+    while(j!=NULL)
+    {
+         if(i>1)
+         {
+
+         }
+    }
 }
