@@ -14,7 +14,25 @@ int main()
         {
             if(glass[j][i]>='A'&&glass[j][i]<='E')
             {
-
+                if(glass[j][i]=='A')
+                {
+                    if(m==1)
+                    {
+                        m=1;
+                    }
+                    else if(m==2)
+                    {
+                        m=3;
+                    }
+                    else if(m==3)
+                    {
+                        m=2;
+                    }
+                    else
+                    {
+                        m=4;
+                    }
+                }
             }
         }
     }
