@@ -2,8 +2,18 @@
 #include<string.h>
 int main()
 {
-    char s[200],delim[]=" ",*j;
+    char s[1000],delim[]=" ",*j;
     int i=1;
     printf("Enter sentence: ");
     gets(s);
+    j=strtok(s,delim);
+    printf("%c",toupper(s[0]));
+    while(j!=NULL)
+    {
+        if(i>1)
+        {
+
+        }
+
+    }
 }
