@@ -72,6 +72,48 @@ int main()
                         m=2;
                     }
                 }
+                else if(glass[j][i]=='D')
+                {
+                    if(m==1)
+                    {
+                        m=2;
+                    }
+                    else if(m==2)
+                    {
+                        m=1;
+                    }
+                    else if(m==3)
+                    {
+                        m=4;
+                    }
+                    else
+                    {
+                        m=3;
+                    }
+                }
+                else if(glass[j][i]=='E')
+                {
+                    if(m==1)
+                    {
+                        m=4;
+                    }
+                    else if(m==2)
+                    {
+                        m=3;
+                    }
+                    else if(m==3)
+                    {
+                        m=2;
+                    }
+                    else
+                    {
+                        m=1;
+                    }
+                }
+                else
+                {
+                    break;
+                }
             }
         }
     }
